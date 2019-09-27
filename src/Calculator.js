@@ -57,8 +57,8 @@ class Calculator extends Component{
             <center>
                 <div>
                     <div>
-                    <input type="text" placeholder="Enter First Number" onChange={(e)=>this.FirstNum(e)}/><br/>
-                    <input type="text" placeholder="Enter Second Number" onChange={(e)=>this.SecNum(e)}/>
+                    <input type="number" placeholder="Enter First Number" onChange={(e)=>this.FirstNum(e)}/><br/>
+                    <input type="number" placeholder="Enter Second Number" onChange={(e)=>this.SecNum(e)}/>
                     </div>
                     <button onClick={(e)=>this.plus(e)}>Add</button>
                     <button onClick={(e)=>this.sub(e)}>sub</button>
